@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 32px;
+}
+.container .inputs {
+  display: flex;
+  gap: 20px;
+}
+.container .inputs span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.container .inputs span input {
+  padding: 12px 10px;
+  border: 1px solid rgb(166, 166, 166);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.container .inputs span label {
+  font-size: 14px;
+  color: red;
+  text-align: left;
+}
+.container .inputs button {
+  height: 45px;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.container table thead {
+  background-color: #4CAF50;
+}
+.container table tr th, .container table tr td {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+.container tbody {
+  height: auto;
+}
+.container tbody tr {
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.container tbody tr td {
+  padding: 10px 0px;
+  font-size: 16px;
+  color: black;
+}
+.container tbody tr button {
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */

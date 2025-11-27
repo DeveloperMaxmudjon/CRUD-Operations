@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="/CRUD Operations/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Operations</h1>
+
+        <div class="inputs">
+            <span>
+                <input type="text" id="nameInput" placeholder="Enter name">
+                <label for="nameInput" id="nameEr"></label>
+            </span>
+            <span>
+                <input type="email" id="emailInput" placeholder="Enter email">
+                <label for="emailInput" id="emailEr"></label>
+            </span>
+            <button id="addTable">Add</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th id="Id">ID</th>
+                    <th id="name">Name</th>
+                    <th id="email">Email</th>
+                    <th id="actions">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="/CRUD Operations/script.js"></script>
+</html>
